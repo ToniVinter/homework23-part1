@@ -1,6 +1,6 @@
 package com.fasttrackit.homeWork23part1.menu;
 
-import com.fasttrackit.homeWork23part1.caseControll.CaseControl;
+import com.fasttrackit.homeWork23part1.caseControl.CaseControl;
 import de.vandermeer.asciitable.AsciiTable;
 
 import java.util.Scanner;

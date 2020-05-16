@@ -1,4 +1,4 @@
-package com.fasttrackit.homeWork23part1.caseControll;
+package com.fasttrackit.homeWork23part1.caseControl;
 
 import com.fasttrackit.homeWork23part1.domain.Vacation;
 import org.springframework.core.ParameterizedTypeReference;
