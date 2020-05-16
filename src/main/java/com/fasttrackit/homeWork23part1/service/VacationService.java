@@ -1,12 +1,11 @@
 package com.fasttrackit.homeWork23part1.service;
 
-import com.fasttrackit.homeWork23part1.VacationNotFound;
-import com.fasttrackit.homeWork23part1.VacationRepository;
+import com.fasttrackit.homeWork23part1.exceptions.VacationNotFound;
+import com.fasttrackit.homeWork23part1.repo.VacationRepository;
 import com.fasttrackit.homeWork23part1.domain.Vacation;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-import java.util.Optional;
 
 @Service
 public class VacationService {

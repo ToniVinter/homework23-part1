@@ -1,4 +1,4 @@
-package com.fasttrackit.homeWork23part1;
+package com.fasttrackit.homeWork23part1.repo;
 import com.fasttrackit.homeWork23part1.domain.Vacation;
 import org.springframework.data.jpa.repository.JpaRepository;
 import java.util.List;

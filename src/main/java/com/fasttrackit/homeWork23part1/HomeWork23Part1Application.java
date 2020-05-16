@@ -1,6 +1,8 @@
 package com.fasttrackit.homeWork23part1;
 
 import com.fasttrackit.homeWork23part1.domain.Vacation;
+import com.fasttrackit.homeWork23part1.menu.ControlMenu;
+import com.fasttrackit.homeWork23part1.repo.VacationRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -11,6 +13,8 @@ public class HomeWork23Part1Application {
 
 	public static void main(String[] args) {
 		SpringApplication.run(HomeWork23Part1Application.class, args);
+		ControlMenu controlMenu = new ControlMenu();
+		controlMenu.setOption();
 	}
 
 	@Bean

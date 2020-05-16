@@ -1,4 +1,4 @@
-package com.fasttrackit.homeWork23part1;
+package com.fasttrackit.homeWork23part1.controller;
 
 import com.fasttrackit.homeWork23part1.domain.Vacation;
 import com.fasttrackit.homeWork23part1.service.VacationService;
@@ -39,7 +39,7 @@ public class VacationController {
         service.addVacation(vacation);
     }
 
-    @PostMapping(value = "/replace", params = "id")
+    @PutMapping(value = "/replace", params = "id")
     public void replaceVacation(@RequestParam(required = false) int id,@RequestBody Vacation vacation){
         service.replaceVacation(id,vacation);
     }
